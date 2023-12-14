@@ -1,8 +1,15 @@
 # MovieRecomendations
-Recommendation-System-Using-Neural-Collaborative-Filtering
+# OBJECTIVE:
+# TO BUILD A RECOMMENDATION SYSTEM TO RECOMMEND MOVIES TO USER BASED ON THEIR PREVIOUS HISTORY OF MOVIES WATCHED BY THEM AND THE RATING WHICH THEY HAVE PROVIDED
 
-In this project the aim is to recommend a user movies based on their previous rating on movies which was watched by the user
 
+# WE WILL BE USING MOVIE LENS DATASET
+# YOU CAN DOWNLOAD DATASET FROM HERE: https://www.kaggle.com/grouplens/movielens-20m-dataset
+# WE WILL BE BUILD THE RECOMMENDATION SYSTEM USING NEURAL COLLABORATIVE FILTERING
+
+
+
+Recommendation-System-Using-Neural-Collaborative-Filtering:
 Neural Collaborative Filtering (NCF) is a type of collaborative filtering algorithm that uses neural networks to model the latent features of users and items for recommendation. Collaborative filtering is a technique commonly used in recommendation systems to make predictions about the preferences of a user by leveraging the preferences and behavior of other users.
 
 from keras.layers import Input, Embedding, Flatten, Concatenate, Dense
